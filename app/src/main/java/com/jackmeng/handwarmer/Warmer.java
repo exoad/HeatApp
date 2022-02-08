@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 public abstract class Warmer extends AppCompatActivity {
 
-    private static Thread[] threads = new Thread[8];
+    private static Thread[] threads = new Thread[2];
 
     private static void init() {
         Arrays.fill(threads, 0, threads.length, new Thread());
